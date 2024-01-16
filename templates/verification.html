@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Verification Page</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/verify" method="post">
+            <h2>Enter Verification Code</h2>
+            
+            <label for="verification_code">Verification Code:</label>
+            <input type="text" id="verification_code" name="verification_code" required>
+            
+            <button type="submit">Verify</button>
+        </form>
+    </div>
+</body>
+</html>
